@@ -2685,7 +2685,7 @@ input, select, textarea {
 			width: 60%;
 		}
 
-		.spotlight:nth-child(2n) {
+		.spotlight:nth-child(1) {
 			-moz-flex-direction: row-reverse;
 			-webkit-flex-direction: row-reverse;
 			-ms-flex-direction: row-reverse;
