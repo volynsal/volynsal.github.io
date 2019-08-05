@@ -2422,6 +2422,7 @@ input, select, textarea {
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
+
 	}
 
 		input[type="submit"]:hover,
@@ -2477,9 +2478,16 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			position: relative;
+			background-color: transparent;
 			box-shadow: none !important;
 			color: #ffffff !important;
+			border-style: solid;
+			border-width: 2px;
+			font-size: 20px;
+			text-align: center;
+			top: 10vh;
+			right: 0.6vw;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2487,7 +2495,9 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ef5e4a !important;
+				background-color: rgba(130, 130, 130, 0.25) !important;
+				border-bottom-color: white !important;
+				opacity: 1.5;
 			}
 
 			input[type="submit"].primary:active,
@@ -3991,3 +4001,5 @@ input, select, textarea {
 	#puppeteer {
 		margin-bottom: -2vh;
 	}
+
+
