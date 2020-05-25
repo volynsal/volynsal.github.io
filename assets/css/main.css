@@ -3999,8 +3999,11 @@ input, select, textarea {
 		background-color: #1d242a;
 	}
 
-	#puppeteer {
-		margin-bottom: -2vh;
+	#spring {
+		margin-top: 0.8em;
 	}
 
+	#redux {
+		margin-top: 0.8em;
+	}
 
