@@ -3999,11 +3999,22 @@ input, select, textarea {
 		background-color: #1d242a;
 	}
 
+/* iPhone 10 styling for non-devicons */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
 	#spring {
-		margin-top: 0.8em;
+		height: 1.4rem !important;
+		width: 1.3rem !important;
+		top: 0rem !important;
 	}
 
 	#redux {
-		margin-top: 0.8em;
+		height: 1.2rem !important;
+		width: 1.1rem !important;
+		top: 0rem !important;
 	}
+}
 
